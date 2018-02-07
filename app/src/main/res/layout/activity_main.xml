@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.minhtv.udacityquiz3.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B3E5FC"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/Test_Header"
+            android:textColor="#660A3B"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:layout_margin="20dp"
+            android:src="@drawable/iq" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/Who_are_you"
+            android:gravity="center"
+            android:textColor="#4f4f4f"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:hint="@string/name"
+            android:inputType="textCapWords"
+            android:textColor="#4f4f4f"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/first_question"
+            android:gravity="center"
+            android:textColor="#4f4f4f"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/firstyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="2dp"
+            android:text="@string/firstyear"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#4f4f4f"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/secondyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="2dp"
+            android:text="@string/secondyear"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#4f4f4f"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/thirdyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="2dp"
+            android:text="@string/thirdyear"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#4f4f4f"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/lastyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="2dp"
+            android:text="@string/lastyear"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#4f4f4f"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/secondquestion"
+            android:gravity="center"
+            android:textColor="#4f4f4f"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/answer_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="2dp"
+                android:text="@string/yes"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#4f4f4f"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="2dp"
+                android:text="@string/no"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#4f4f4f"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/Appollo"
+            android:gravity="center"
+            android:textColor="#4f4f4f"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/name_of_spaceflight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/namespaceflight"
+            android:gravity="center"
+            android:inputType="textCapWords"
+            android:textAllCaps="true"
+            android:textColor="#4f4f4f"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/dna"
+            android:textColor="#4f4f4f"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/Francis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="2dp"
+            android:text="@string/Francis"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#4f4f4f"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Marie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="2dp"
+            android:text="@string/MarieCurie"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#4f4f4f"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Albert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="2dp"
+            android:text="@string/Albert"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#4f4f4f"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/James"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="2dp"
+            android:text="@string/James"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#4f4f4f"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/Otaku"
+            android:gravity="center"
+            android:textColor="#4f4f4f"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/anime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="2dp"
+                android:text="@string/anime"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#4f4f4f"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="2dp"
+                android:text="@string/fear"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#4f4f4f"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="2dp"
+                android:text="@string/shaman"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#4f4f4f"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:background="#009688"
+            android:fontFamily="sans-serif"
+            android:onClick="result"
+            android:text="@string/result"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#cdcdcd"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+

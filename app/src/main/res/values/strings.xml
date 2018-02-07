@@ -1,0 +1,32 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Test your Knowledge</string>
+    <string name="Test_Header">Test your general knowledge with this app!</string>
+    <string name="Who_are_you">Who are you?</string>
+    <string name="name">Enter your name</string>
+    <string name="first_question">Ok, lets beginn with the first question \nwhen did the World War 2 begin and end?</string>
+    <string name="score">Your score is </string>
+    <string name="congratulations">Congratulations <xliff:g example="Player1" id="name">%s</xliff:g></string>
+    <string name="better">Next time you will do it!</string>
+    <string name="firstyear">1945</string>
+    <string name="secondyear">1939</string>
+    <string name="thirdyear">1920</string>
+    <string name="lastyear">1949</string>
+    <string name="secondquestion">Next question. \nIs Ulaanbaatar the capital of mongolia?</string>
+    <string name="Appollo">Name the spaceflight that landed the first two humans on the Moon</string>
+    <string name="namespaceflight">Enter the name of the spaceflight</string>
+    <string name="MarieCurie">Marie Curie</string>
+    <string name="Albert">Albert Einstein</string>
+    <string name="Otaku">What is an Otaku?</string>
+    <string name="anime">Someone with obsessive interests in anime and manga fandom</string>
+    <string name="fear">someone who is afraid of people or human company</string>
+    <string name="shaman">someone who is a traditional healer and spiritual leader</string>
+    <string name="appollo11">APOLLO 11</string>
+    <string name="result">Result</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="Francis">Francis Crick</string>
+    <string name="James">James Watson</string>
+    <string name="dna">Who discovered DNA?</string>
+</resources>
+
